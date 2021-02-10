@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
     branches:
-      - testing-aws-s3
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
